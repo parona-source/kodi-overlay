@@ -42,6 +42,7 @@ PATCHES=(
 )
 
 src_prepare() {
+	# depend removal breaks build
 	cmake_src_prepare
 }
 
